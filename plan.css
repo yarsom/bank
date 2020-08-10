@@ -1,0 +1,93 @@
+.plan {
+    margin-top: 105px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.plan-info, .plan-card {
+    width: 350px;
+}
+
+.plan-info {
+    margin-top: 60px;
+}
+
+.plan-title {
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 32px;
+    line-height: 48px;
+    padding-left: 22px;
+    border-left: 1px solid #000;
+}
+
+.plan-subtitle {
+    padding-top: 18px;
+    font-family: 'Montserrat-Regular';
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.plan-card {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    padding: 32px;
+    position: relative;
+    margin-bottom: 31px;
+}
+
+.plan-card__marker {
+    padding: 8px 24px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 13px;
+    position: absolute;
+    right: 16px;
+    top: -14px;
+}
+
+.plan-card__header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 16px;
+    border-left: 1px solid #000;
+    margin-bottom: 23px;
+}
+
+.plan-card__icon {
+    width: 32px;
+    height: 32px;
+    background-image: url('./imgs/plan-icon-gray.svg');
+}
+
+.plan-card__icon:hover {
+    background-image: url('./imgs/plan-icon.svg');
+}
+
+.plan-card__title {
+    font-family: 'PlayfairDisplay-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.plan-card__content-item {
+    margin-bottom: 20px;
+}
+
+.plan-card__content-item .app-label {
+    display:block;
+    margin-bottom: 4px;
+}
+
+.plan-card__buttons .app-button {
+    width: 100%;
+}
+
+.plan-card__buttons .app-button--orange {
+    margin-bottom: 16px;
+    margin-top: 14px;
+}

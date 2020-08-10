@@ -1,0 +1,70 @@
+.app-button {
+    height: 48px;
+    font-size: 16px;
+    font-family: "Montserrat-Regular";
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    border: none;
+    cursor: url(http://tympanus.net/codrops-playground/assets/images/cssref/properties/cursor/clock-cursor.png), url(http://tympanus.net/codrops-playground/assets/images/cssref/properties/cursor/clock-cursor.cur), pointer;
+
+}
+.app-button--black {
+    color: white;
+    background-color: black;
+    transition: .5s;
+    border: 1px solid transparent;
+}
+
+.app-button--small {
+    height: 40px;
+    padding-left: 52px;
+    padding-right: 52px;
+}
+
+.app-button--black:hover {
+    color: black;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+.app-container {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.app-label {
+    font-family: 'Montserrat-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.app-text {
+    font-family: 'Montserrat-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.app-button--orange {
+    background-color: #EC3D08;
+    color: white;
+}
+
+.app-button--white {
+    background-color: transparent;
+    font-family: 'Montserrat-Medium';
+    border: 1px solid black;
+}
+
+.app-button--round {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 3px;
+    border: 1px solid red;
+}

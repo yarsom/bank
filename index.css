@@ -1,0 +1,18 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css";
+@import "fonts.css";
+@import "ui-kit.css";
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+@import "promo.css";
+@import "plan.css";
+
+* {
+    box-sizing: border-box;
+}
+
+.chat-button {
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+}

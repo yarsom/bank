@@ -1,0 +1,38 @@
+.promo {
+    margin-top: 110px;
+    display: flex;
+}
+
+.promo-right {
+    margin-left: 128px;
+}
+
+.promo-title {
+    margin-top: 130px;
+    font-family: 'PlayfairDisplay-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.uah {
+    font-family: 'PlayfairDisplay-Regular';
+    font-style: normal;
+    font-weight: bold;
+}
+
+.promo-right-buttons {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promo-right-buttons .app-button {
+    width: 216px;
+}
+
+
+
+
