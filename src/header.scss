@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+
+    &-left {
+        display: flex;
+        align-items: center;
+    }
+
+    &-menu {
+        margin-left: 40px;
+        font-family: 'Montserrat-Medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        display: flex;
+        align-items: flex-start;
+
+        &-item {
+            margin-right: 27px;
+            position: relative;
+
+            &:before {
+                content: '___';
+                display:  block;
+                position: absolute;
+                top: -20px;
+                left: 10px;
+            }
+
+            &:after {
+                content: '___';
+                display:  block;
+                position: absolute;
+                bottom: -20px;
+                left: 10px;
+            }
+
+            &:first-letter {
+                color: red;
+            }
+        }
+    }
+
+    &-phone {
+        font-family: 'Montserrat-Regular';
+        display: block;
+        font-size: 17px;
+    }
+
+    &-contacts {
+        text-align: right;
+        margin-right: 30px;
+    }
+
+    &-right {
+        display: flex;
+    }
+}

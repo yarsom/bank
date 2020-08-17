@@ -1,3 +1,7 @@
+@import './mixins';
+
+$regular_font: 'PlayfairDisplay-Regular';
+
 .plan {
     margin-top: 105px;
     display: flex;
@@ -15,7 +19,7 @@
 }
 
 .plan-title {
-    font-family: 'PlayfairDisplay-Regular';
+    font-family: $regular_font;
     font-size: 32px;
     line-height: 48px;
     padding-left: 22px;
@@ -41,7 +45,7 @@
     background-color: black;
     color: white;
     text-align: center;
-    font-family: 'PlayfairDisplay-Regular';
+    font-family: $regular_font;
     font-size: 13px;
     position: absolute;
     right: 16px;
@@ -57,19 +61,16 @@
 }
 
 .plan-card__icon {
-    width: 32px;
-    height: 32px;
-    background-image: url('./imgs/plan-icon-gray.svg');
+    @include size(32px);
+    background-image: url('../imgs/plan-icon-gray.svg');
 }
 
 .plan-card__icon:hover {
-    background-image: url('./imgs/plan-icon.svg');
+    background-image: url('../imgs/plan-icon.svg');
 }
 
 .plan-card__title {
     font-family: 'PlayfairDisplay-Regular';
-    font-style: normal;
-    font-weight: normal;
     font-size: 24px;
     line-height: 32px;
 }
@@ -79,7 +80,7 @@
 }
 
 .plan-card__content-item .app-label {
-    display:block;
+    display: block;
     margin-bottom: 4px;
 }
 
