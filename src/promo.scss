@@ -33,6 +33,15 @@
     width: 216px;
 }
 
+@media (max-width: 1024px) {
+    .promo {
+        flex-direction: column;
+        &-right {
+            margin-left: 0px;
+        }
+    }
+}
+
 
 
 

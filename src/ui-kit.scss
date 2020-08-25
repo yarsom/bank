@@ -68,3 +68,15 @@
     padding: 3px;
     border: 1px solid red;
 }
+
+@media (max-width: 768px) {
+    .app-container {
+        width: 425px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .app-container {
+        width: 768px;
+    }
+}
